@@ -5,13 +5,14 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sing UP form</title>
+    <title>Sing-Up Form</title>
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
     <div class="full">
         <div class="left">
+            <img src="daniel-castellon-OyGLhrZmHLQ-unsplash.jpg" alt="">
             <div class="logo">
                 <img src="animals-g70308c87e_1920.png" alt="" height="50px">
                 <h1>snowflack</h1>
@@ -28,35 +29,35 @@
                 <p class="formheading">Let's do this!</p>
                 <div class="input">
                     <label for="first-name">FIRST NAME :</label>
-                    <input type="text" name="first-name" id="first-name" placeholder="first name">
+                    <input type="text" name="first-name" id="first-name" placeholder="first name" required>
                 </div>
                 <div class="input">
                     <!-- <label for="secondname">SECOND NAME</label>
                     <input type="text" placeholder="second name"> -->
                     <label for="last-name">LAST NAME :</label>
-                    <input type="text" name="last-name" id="last-name" placeholder="last name">
+                    <input type="text" name="last-name" id="last-name" placeholder="last name" required>
                 </div>
                 <div class="input">
                     <label for="phone-number">PHONE NUMBER :</label>
-                    <input type="text" name="phone-number" id="phone-number" placeholder="second name">
+                    <input type="tel" name="phone-number" id="phone-number" placeholder="second name" required  pattern='[0-9]{10}'>
                 </div>
                 <div class="input">
-                    <label for="Email">EMAIL :</label>
-                    <input type="text" name="Email" id="Email" placeholder="second name">
+                    <label for="email">EMAIL :</label>
+                    <input type="text" name="email" id="email" placeholder="second name" required>
                 </div>
                 <div class="input">
                     <label for="password">PASSWORD :</label>
-                    <input type="text" name="password" id="password" placeholder="second name">
+                    <input type="password" name="password" id="password" placeholder="second name" required>
                 </div>
                 <div class="input">
                     <label for="confirm-password">CONFIRM PASSWORD :</label>
-                    <input type="text" name="consfirm-password" id="confirm-password" placeholder="second name">
+                    <input type="password" name="consfirm-password" id="confirm-password" placeholder="second name" required>
                 </div>
 
             </form>
             <button type="submit" class="button" form="form" >create account</button>
 
-            <p id="signin">already have a account then <a href="#">singin</a>.</p>
+            <p id="signin">Already have an account ? <a href="#">Log in</a>.</p>
         </div>
 
     </div>
