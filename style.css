@@ -1,5 +1,7 @@
 * {
     margin: 0px;
+    color: rgb(254, 231, 21);
+    box-sizing: border-box;
 }
 
 .full {
@@ -8,18 +10,24 @@
 
 .left {
     display: flex;
-    height: auto;
     width: 40vw;
-    height: 100vh;
+    /* height: 100vh; */
     background: url('daniel-castellon-OyGLhrZmHLQ-unsplash.jpg') center center;
+    background-color: black;
+
+}
+
+h1 {
+    color: black;
 }
 
 .logo {
     display: flex;
-    background-color: rgba(255, 253, 253, 0.7);
     justify-content: center;
     align-items: center;
     gap: 10px;
+
+    background-color: rgb(254, 231, 21);
     position: relative;
     top: 50px;
     width: 100vw;
@@ -27,67 +35,73 @@
 }
 
 .right {
-    background-color: rgb(163, 230, 104);
+    background-color: black;
 }
 
 
 .insideright p {
 
-   font-size: 25px;
-   font-weight: bolder;
-   padding: 10px;
-   line-height: 25px;
+    font-size: 25px;
+    font-weight: lighter;
+    padding: 40px;
+    padding-left: 40px;
+    line-height: 25px;
 }
 
-.form {
+form {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    padding: 0px 50px;
-    padding-right: 20px;
+
+    padding: 0px 20px 30px 50px;
     gap: 20px;
-    background-color: rgb(33, 144, 213)
+    background-color: rgb(254, 231, 21);
 }
-#right{
+
+.formheading {
+    color: black;
+
+    font-weight: bolder;
+    font-size: x-large;
+
     width: 100%;
+
+    padding: 10px;
+
 }
-.input{
+
+
+.input {
     display: flex;
     flex-flow: column wrap;
+
     width: 40%;
     /* font-size: 0.7rem; */
     /* text-transform: uppercase; */
-    opacity: 50%;
 }
-/*
-.input {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
 
+.input input {
+    background-color: black;
+    padding: 5px;
 }
 
 label {
-    color: white;
+    color: black;
     transform: uppercase;
 }
 
-.insideleft p {
-    color: white;
-    font-size: larger;
-    font-weight: 900;
-    padding: 0px 50px;
-    letter-spacing: 1px;
-}
-button{
-    color: blue;
-    background-color: yellow;
+
+
+button {
+    color: black;
+    background-color: rgb(254, 231, 21);
     margin: 30px;
-    padding: 5px 20px;
-    margin-left: 90px;
+    padding: 7px 20px;
+    margin-left: 40px;
     border-radius: 5px;
 }
+
 #signin {
-    color:blue;
-    padding: 50px;
-} */
+    color: rgb(254, 231, 21);
+    padding-left: 40px;
+}
